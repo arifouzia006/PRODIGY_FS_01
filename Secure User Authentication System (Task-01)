@@ -1,0 +1,17 @@
+This project is a fully functional and secure user authentication system developed using PHP and MySQL. It allows users to register, log in, and access protected pages only after successful authentication. The system uses best practices in web security, including password hashing with password_hash() and password_verify(), secure session management, and protection against SQL injection using prepared statements.
+
+Key features include:
+
+User Registration with unique username and email validation
+
+Secure Login with hashed password verification
+
+Session-based Authentication to restrict access to protected routes
+
+Logout functionality to end user sessions securely
+
+Role-based access control (optional) for differentiating between user roles like admin and user
+
+Clean and modular code structure for easy integration and customization
+
+This system serves as a foundational component for any PHP-based web application where secure user management is required. It’s ideal for students, developers, or small projects looking to implement secure user login and registration without relying on external frameworks or libraries.
